@@ -1,0 +1,22 @@
+{
+    "users": [
+        {"email":"fckddceeg@gmail.com", "password":"fckddceeg"},
+        {"email":"ejcbikkgk@gmail.com", "password":"ejcbikkgk"},
+        {"email":"fbadfgcae@gmail.com", "password":"fbadfgcae"},
+        {"email":"jgbigdaic@gmail.com", "password":"jgbigdaic"},
+        {"email":"bilbjdfgb@gmail.com", "password":"bilbjdfgb"},
+        {"email":"eljkcclkg@gmail.com", "password":"eljkcclkg"}
+    ],
+    "site":{
+        "domain": "https://www.instacart.com",
+        "paths":{
+            "index":"",
+            "login": "/v3/dynamic_data/authenticate/login?source=web&cache_key=undefined",
+            "recreate": "/v3/user_onboarding/recreate?source=web&cache_key=undefined",
+            "visits": "/ahoy/visits",
+            "authenticate": "/v3/containers/next_gen/authenticate?&source=web&cache_key=undefined",
+            "store": "/store",
+            "storefront": "/v3/containers/:retailer_slug/storefront?source=web&cache_key=undefined"
+        }
+    }
+}
